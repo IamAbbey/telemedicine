@@ -5,9 +5,6 @@
 - Run migrations with `docker-compose exec api python manage.py migrate`
 - Run test with `docker-compose exec api pytest`
 
-### Live URL: 
-[telemedicine.studybeta.com.ng](http://telemedicine.studybeta.com.ng "telemedicine.studybeta.com.ng")
-
 ### Admin Site URL: 
 [telemedicine.studybeta.com.ng/admin](http://telemedicine.studybeta.com.ng/admin "telemedicine.studybeta.com.ng/admin")
 
