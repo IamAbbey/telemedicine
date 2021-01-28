@@ -21,3 +21,19 @@ urlpatterns = [
     path("api/user/", include("apps.authentication.urls")),
     path("api/", include("apps.consultation.urls")),
 ]
+
+handler500 = "rest_framework.exceptions.server_error"
+handler400 = "rest_framework.exceptions.bad_request"
+
+from rest_framework.exceptions import NotFound
+
+
+def error404(request, exception):
+    raise NotFound(detail="Error 404, page not found", code=404)
+
+
+handler404 = error404
+
+admin.site.site_header = "Telemedicine Adminstration"
+admin.site.index_title = "Telemedicine Admin Panel"
+admin.site.site_title = "Telemedicine Admin"
