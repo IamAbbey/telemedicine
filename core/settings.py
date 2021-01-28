@@ -164,7 +164,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 if DEBUG:
-    STATIC_URL = "static"
+    STATIC_URL = "/static/"
 else:
     STATIC_URL = os.environ.get("STATIC_URL", "")
 
