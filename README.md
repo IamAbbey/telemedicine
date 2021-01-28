@@ -16,7 +16,7 @@
 - password: management123
 
 ### MVP test coverage: 
-### 93%
+### 89%
 
 ### Live documentation: https://documenter.getpostman.com/view/8024986/TW6wK9GT
 
